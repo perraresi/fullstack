@@ -1,0 +1,32 @@
+.t{
+
+color: rgb(0, 0, 0);
+font-size: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tt{
+
+color: chocolate;
+font-size: 40px;
+font-family: 'Times New Roman', Times, serif;
+}
+.st{
+
+color: blue;
+font-size: 25px;
+
+}
+
+.line{
+
+color: rgb(140, 0, 255);
+
+}
+
+#ts:hover{
+
+
+
+color: darkgreen;
+}

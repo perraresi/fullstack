@@ -1,0 +1,51 @@
+.header{
+color: rgb(255, 255, 255);
+border-style: inset;
+border-radius: 20px;
+padding: 50px;
+height: 250px;
+box-shadow: 5px 10px white;
+font-size: 36px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu{
+
+position: fixed;
+}
+
+.tb{
+padding: 20px;
+border-style: inset; border-radius: 20px; box-shadow: 5px 10px white;
+position: relative;
+top: 60px;
+color: white;
+
+}
+
+.tb_title{
+
+font-size: 48px;
+}
+
+.tb_text{
+
+font-size: 18px;
+}
+
+.links{
+
+color: white;
+font-size: 24px;
+border-style: solid; color: white; height: 28px; width: 100px; border-radius: 20px;
+}
+
+.links:hover{color: aqua;}
+
+
+#st{
+
+color: rgb(255, 255, 255);
+font-size: 24px;
+
+}
