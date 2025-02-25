@@ -1,0 +1,11 @@
+.header{
+border: solid; color: darkblue; background-color: bisque;
+}
+
+
+#title{
+position: absolute;
+top: 2%;
+left: 45%;
+color: green;
+}
