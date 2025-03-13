@@ -1,0 +1,109 @@
+1 - 
+
+algorit CalcMultiploDe5
+	exiba "digite um número"
+	receba Numero
+se Numero dividido por 5 tiver resto igual 0
+	print "Múltiplo de 5 detectado!"
+
+TESTE DE MESA	
+
+algorit CalcMultiploDe5
+	exiba "digite um número"
+	entrada : 25
+	print "Múltiplo de 5 detectado!"
+
+---------------------------------------
+
+algorit CalcMultiploDe5
+	exiba "digite um número"
+	entrada : 7
+NADA É EXIBIDO
+
+
+
+2 -
+
+algorit CalcAltura
+	exiba "digite a altura"
+	receba Altura
+se Altura for maior ou igual a 150
+	print "você tem altura suficiente para entrar no brinquedo"
+se não
+	print "desculpe, você não tem altura o suficiente para entrar no brinquedo"
+
+TESTE DE MESA
+
+algorit CalcAltura
+	exiba "digite a altura"
+	Entrada: 160
+	print "você tem altura suficiente para entrar no brinquedo"
+
+--------------------------------
+
+algorit CalcAltura
+	exiba "digite a altura"
+	Entrada: 140
+	print "desculpe, você não tem altura o suficiente para entrar no brinquedo"
+
+
+
+
+
+
+
+3 - 
+
+algorit SenhaSist
+	exiba "Digite a senha para acessar o sistema"
+	receba Senha
+se Senha for 1234
+	print "acesso permitido"
+	exiba "Deseja acessar a área administrativa?"
+	receba Opcao
+	se opção for igual a S
+		print "Entrando na área administrativa..."
+	se não então
+		print "Você está na área de usuário comum"
+	se não
+		print "opção inválida. saindo..."
+se não
+	print "senha incorreta! Acesso negado"
+	
+
+TESTE DE MESA
+
+algorit SenhaSist
+	exiba "Digite a senha para acessar o sistema"
+	Entrada: 1234
+	print "acesso permitido"
+	
+	exiba "Deseja acessar a área administrativa?"
+	Entrada: S
+	print "Entrando na área administrativa..."
+
+---------------------------------------------------------
+
+algorit SenhaSist
+	exiba "Digite a senha para acessar o sistema"
+	Entrada: 5555
+	print "senha incorreta! Acesso negado"
+
+---------------------------------------------------------
+
+algorit SenhaSist
+	exiba "Digite a senha para acessar o sistema"
+	Entrada: 1234
+	print "acesso permitido"
+	
+	exiba "Deseja acessar a área administrativa?"
+	Entrada: N
+	print "Você está na área de usuário comum"
+
+
+
+
+
+
+
+
