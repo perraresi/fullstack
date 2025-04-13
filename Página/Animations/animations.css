@@ -1,0 +1,44 @@
+body{
+background-color: rgb(158, 126, 84);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: burlywood;
+    color: black;
+    border: inset brown;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    
+nav{
+        background-color: bisque;
+        border: inset brown;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 50px;
+}
+
+
+canvas{
+border: 1px solid black;
+cursor: none;
+height: 300;
+width: 300;
+background-color: white;
+}
+
+.container_center{
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+.container_center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
