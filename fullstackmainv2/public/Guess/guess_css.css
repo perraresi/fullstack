@@ -1,0 +1,37 @@
+body{background-color: chocolate;}
+
+p{
+color: white;
+font-family: 'Times New Roman', Times, serif;
+font-size: 22px;
+}
+
+h1{
+color: white;
+font-family: 'Times New Roman', Times, serif;
+font-size: 48px;
+
+}
+
+#title{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.nums{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+}
+
+.resposta{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+
+
+}

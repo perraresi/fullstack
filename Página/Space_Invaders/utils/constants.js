@@ -1,0 +1,5 @@
+export const PATH_SPACESHIP_IMAGE = "assets/images/spaceship.png";
+export const PATH_ENGINE_IMAGE = "assets/images/engine.png";
+export const PATH_ENGINE_SPRITES = "assets/images/engine_sprites.png";
+export const INITIAL_FRAMES = 8
+export const PATH_INVADER_IMAGE = "assets/images/invader.png"
