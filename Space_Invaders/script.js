@@ -234,6 +234,13 @@ const playCutscene = () => {
                 if (mothershipY + 480 < 0) {
                     currentState = GameState.PLAYING;
                     scoreUi.style.display = "block";
+
+                    setInterval(() => {
+                        const invader = grid.getRandominvader();
+                        if (invader) {
+                            invader.shoot(invaderProjectiles);
+                        }
+                    }, 1000);
                     return;
                 }
             }
@@ -468,6 +475,7 @@ requestAnimationFrame(gameloop)
 
 
 if (currentState == GameState.gameOver) {
+    drawBackground();
     drawParticles();
     drawProjectiles();
     grid.draw(ctx);
@@ -544,12 +552,6 @@ buttonPlay.addEventListener("click", () => {
         scoreUi.style.display = "block";
       }
 
-    setInterval(() => {
-        const invader = grid.getRandominvader();
-        if (invader) {
-            invader.shoot(invaderProjectiles);
-        }
-    }, 1000);
 });
 
 gameloop();
